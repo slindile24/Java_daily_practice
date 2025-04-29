@@ -1,0 +1,30 @@
+Create an abstract class Animal:
+
+Abstract method makeSound()
+
+Concrete method void sleep() prints "Sleeping..."
+
+Create Dog and Cat classes:
+
+Override makeSound() ("Woof!" and "Meow!")
+
+Add child-specific methods:
+
+Dog has fetchBall()
+
+Cat has scratchSofa()
+
+In Main:
+
+Create an array of Animal objects (mix of Dog and Cat)
+
+Loop through and call makeSound() and sleep()
+
+Use instanceof to downcast and call child-only methods
+
+📌 You will practice:
+
+Polymorphism
+
+Downcasting with access to subclass methods
+

@@ -1,4 +1,7 @@
 package composition_interface.question1;
 
-public class Printable {
+public interface Printable {
+    void print();
+
+
 }

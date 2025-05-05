@@ -1,4 +1,4 @@
-package composition_interface.question2;
+package _interface.question2;
 
 public interface Playable {
 

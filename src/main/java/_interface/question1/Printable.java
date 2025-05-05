@@ -1,4 +1,4 @@
-package composition_interface.question1;
+package _interface.question1;
 
 public interface Printable {
     void print();

@@ -1,4 +1,4 @@
-package composition_interface.question1;
+package _interface.question1;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
-package composition_interface.question1;
-import java.util.Scanner;
+package _interface.question1;
 
 public class Book implements Printable{
     private String title;

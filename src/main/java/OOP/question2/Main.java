@@ -1,7 +1,5 @@
 package OOP.question2;
 
-import OOP.DiscountedProduct;
-
 public class Main {
     public static void main(String[] args) {
         DiscountedProduct discountedProduct = new DiscountedProduct("Buns", 10.0, 20);

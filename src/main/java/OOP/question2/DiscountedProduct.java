@@ -1,6 +1,4 @@
-package OOP;
-
-import OOP.question2.Product;
+package OOP.question2;
 
 public class DiscountedProduct extends Product {
     private double discountPercentage;

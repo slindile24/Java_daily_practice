@@ -1,4 +1,4 @@
-package composition_interface.question2;
+package _interface.question2;
 
 public class Video implements Playable{
     @Override

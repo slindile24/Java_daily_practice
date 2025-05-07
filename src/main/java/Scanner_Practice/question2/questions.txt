@@ -1,0 +1,9 @@
+Ask the user to input two numbers (integers).
+
+Ask the user to choose an operation:
+'+' for addition
+'-' for subtraction
+'*' for multiplication
+'/' for division
+
+Perform the chosen operation and print the result.

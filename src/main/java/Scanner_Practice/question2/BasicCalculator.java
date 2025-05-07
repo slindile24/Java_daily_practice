@@ -13,20 +13,26 @@ public class BasicCalculator {
             scanner.nextLine();
             System.out.println("Choose operation(+,-,*,/): ");
             String operation = scanner.nextLine();
-            switch(operation){
-                case "+":
-                    System.out.println(first_number + second_number);
-                    break;
-                case "-":
-                    System.out.println(first_number - second_number);
-                    break;
-                case "*":
-                    System.out.println(first_number * second_number);
-                    break;
-                case "/":
-                    System.out.println(first_number / second_number);
-            }if (second_number == 0){
-                System.out.println("You cannot divide by 0");
+            try{
+                if (second_number == 0){
+                    System.out.println("Cannot divide by 0");
+                }
+                switch(operation){
+                    case "+":
+                        System.out.println(first_number + second_number);
+                        break;
+                    case "-":
+                        System.out.println(first_number - second_number);
+                        break;
+                    case "*":
+                        System.out.println(first_number * second_number);
+                        break;
+                    case "/":
+                        System.out.println(first_number / second_number);
+                        break;
+                }
+            }catch (ArithmeticException e){
+                System.out.println("Undefined");
             }
         }catch (InputMismatchException e){
             System.out.println("Enter a valid number!");

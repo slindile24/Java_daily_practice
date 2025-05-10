@@ -1,0 +1,6 @@
+Exercise 3: Simple Login System
+Task: Ask the user for a username and password. If they match stored values,
+ print “Access granted”; otherwise, print “Access denied”.
+
+Guiding Question:
+How can you compare a string entered by the user to a stored string in Java?

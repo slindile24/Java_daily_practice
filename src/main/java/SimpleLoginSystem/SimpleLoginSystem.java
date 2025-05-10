@@ -1,6 +1,4 @@
 package SimpleLoginSystem;
-
-import java.util.Objects;
 import java.util.Scanner;
 
 public class SimpleLoginSystem {
@@ -13,7 +11,7 @@ public class SimpleLoginSystem {
         String correctUsername = "Slindile";
         String correctPassword = "Slishh";
 
-        if(Objects.equals(EnteredPassword, correctPassword) && Objects.equals(EnteredUsername, correctUsername)){
+        if(correctPassword.equals(EnteredPassword) && correctUsername.equals(EnteredUsername)){
             System.out.println("Access granted.");
         }else{
             System.out.println("Access denied.");

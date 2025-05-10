@@ -1,0 +1,6 @@
+ Exercise 1: Sum of Two Numbers
+Task: Ask the user to enter two numbers. Display their sum.
+
+Guiding Question:
+How would you use Scanner to take input, store values in variables,
+and then output the result using System.out.println()?

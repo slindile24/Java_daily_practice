@@ -1,0 +1,8 @@
+Capitalize a Word
+Task: Create a method String capitalize(String word) that returns the word with the first letter capitalized.
+
+Test Challenge:
+
+What should capitalize("hello") return?
+
+How should the method behave with an empty string?

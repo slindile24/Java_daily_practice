@@ -1,4 +1,4 @@
-package SumOfTwoNumbers;
+package Scanner_Practice.SumOfTwoNumbers;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
